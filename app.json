@@ -4,39 +4,24 @@
     "slug": "retalia",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/images/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "userInterfaceStyle": "light",
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.retalia"
+      "bundleIdentifier": "com.retalia.app"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "app.retalia"
-    },
-    "web": {
-      "favicon": "./assets/images/favicon.png"
+      "package": "com.retalia.app"
     },
     "plugins": [
-      [
-        "expo-router",
-        {
-          "origin": "https://rork.com/"
-        }
-      ]
-    ],
-    "experiments": {
-      "typedRoutes": true
-    }
+      "expo-router"
+    ]
   }
 }

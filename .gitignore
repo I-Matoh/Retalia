@@ -34,4 +34,10 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+
+# Vercel
 .vercel
