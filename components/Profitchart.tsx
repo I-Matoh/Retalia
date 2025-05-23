@@ -180,4 +180,4 @@ const styles = StyleSheet.create({
     color: Colors.textLight,
     textAlign: 'center',
   },
-});
+}); 

@@ -131,7 +131,7 @@ export default function SettingsScreen() {
         </TouchableOpacity>
       </View>
       
-      <Text style={styles.versionText}>GrowEasy v1.0.0</Text>
+      <Text style={styles.versionText}>RETALIA v1.0.0</Text>
     </ScrollView>
   );
 }

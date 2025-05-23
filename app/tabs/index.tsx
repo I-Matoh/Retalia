@@ -1,7 +1,8 @@
 import React, { useState, useCallback } from 'react';
 import { View, Text, StyleSheet, ScrollView, RefreshControl } from 'react-native';
 import { useTransactionStore } from '@/store/transactionStore';
-import { calculateTotals, calculateProfit, filterTransactionsByPeriod, getRecentTransactions } from '@/utils/transactionUtils';
+import { calculateTotals, calculateProfit, filterTransactionsByPeriod } from '@/utils/transactionUtils';
+import { Transaction } from '@/types/transaction';
 import SummaryCard from '@/components/SummaryCard';
 import PeriodSelector from '@/components/PeriodSelector';
 import TransactionItem from '@/components/TransactionItem';
@@ -17,7 +18,7 @@ export default function DashboardScreen() {
   const filteredTransactions = filterTransactionsByPeriod(transactions, selectedPeriod);
   const { income, expenses } = calculateTotals(filteredTransactions);
   const profit = calculateProfit(filteredTransactions);
-  const recentTransactions = getRecentTransactions(transactions, 5);
+  const recentTransactions = transactions.slice(0, 5); // Get 5 most recent transactions
   
   const periodLabels = {
     day: "Today's",
@@ -44,7 +45,7 @@ export default function DashboardScreen() {
     >
       <View style={styles.header}>
         <Text style={styles.greeting}>Welcome to</Text>
-        <Text style={styles.appName}>GrowEasy</Text>
+        <Text style={styles.appName}>RETALIA</Text>
       </View>
       
       <PeriodSelector 
@@ -72,7 +73,7 @@ export default function DashboardScreen() {
       
       {recentTransactions.length > 0 ? (
         <View style={styles.transactionsList}>
-          {recentTransactions.map((transaction) => (
+          {recentTransactions.map((transaction: Transaction) => (
             <TransactionItem 
               key={transaction.id} 
               transaction={transaction} 

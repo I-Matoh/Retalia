@@ -88,8 +88,8 @@ export default function AddTransactionScreen() {
     setShowCamera(true);
   };
   
-  const handleCameraCapture = (photo: string) => {
-    setImageUri(photo);
+  const handleCameraCapture = (photo: { uri: string }) => {
+    setImageUri(photo.uri);
     setShowCamera(false);
   };
   
@@ -111,7 +111,7 @@ export default function AddTransactionScreen() {
               onPress={() => {
                 // In a real app, you would capture the photo here
                 // For this example, we'll just simulate it
-                handleCameraCapture('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1000');
+                handleCameraCapture({ uri: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1000' });
               }}
             />
             <TouchableOpacity 

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "GrowEasy: Lightweight Storefront Builder for Small Traders",
-    "slug": "groweasy-8fnqg2m",
+    "name": "RETALIA",
+    "slug": "retalia",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,14 +15,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.groweasy-8fnqg2m"
+      "bundleIdentifier": "app.retalia"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.groweasy-8fnqg2m"
+      "package": "app.retalia"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
