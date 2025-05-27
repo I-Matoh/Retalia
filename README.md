@@ -1,7 +1,7 @@
 # RETALIA
 
 A web application for personal finance management.
-works but still on progress
+works but still on progress.
 ## Development
 
 1. Install dependencies:
