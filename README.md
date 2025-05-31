@@ -8,7 +8,7 @@ works but still on progress.
 ```bash
 npm install
 ```
-
+ 
 2. Start the development server:
 ```bash
 npm start 
