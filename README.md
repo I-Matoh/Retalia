@@ -31,7 +31,7 @@ npm install -g vercel
 npm run build
 ```
 
-2. Deploy to Vercel:
+2. Deploy to Vercel: 
 ```bash
 npm run deploy
 ```
