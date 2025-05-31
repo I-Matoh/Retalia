@@ -11,7 +11,7 @@ npm install
 
 2. Start the development server:
 ```bash
-npm start
+npm start 
 ```
 
 ## Deployment
