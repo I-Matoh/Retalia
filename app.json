@@ -17,7 +17,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.retalia.app"
     },
-    "android": {
+    "android": { 
       "package": "com.retalia.app"
     },
     "plugins": [
