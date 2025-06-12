@@ -40,7 +40,7 @@ export const useTransactionStore = create<TransactionState>()(
           (transaction) => transaction.id !== id
         ),
       })),
-      
+       
       clearAllTransactions: () => set({ transactions: [] }),
     }),
     {
