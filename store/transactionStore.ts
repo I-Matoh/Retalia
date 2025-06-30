@@ -10,7 +10,7 @@ interface TransactionState {
   deleteTransaction: (id: string) => void;
   clearAllTransactions: () => void;
 }
- 
+   
 export const useTransactionStore = create<TransactionState>()(
   persist(
     (set) => ({
