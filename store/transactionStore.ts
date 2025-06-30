@@ -44,7 +44,7 @@ export const useTransactionStore = create<TransactionState>()(
       clearAllTransactions: () => set({ transactions: [] }),
     }),
     {
-      name: 'transactions-storage',
+      name: 'transactions-storage', 
       storage: createJSONStorage(() => AsyncStorage),
     }
   )
