@@ -7,7 +7,7 @@ type Period = 'day' | 'week' | 'month' | 'year';
 type PeriodSelectorProps = {
   selectedPeriod: Period;
   onSelectPeriod: (period: Period) => void;
-};
+}; 
 
 export default function PeriodSelector({ selectedPeriod, onSelectPeriod }: PeriodSelectorProps) {
   const periods: { value: Period; label: string }[] = [
