@@ -7,7 +7,7 @@ import Colors from '@/constants/colors';
 type EmptyStateProps = {
   title: string;
   message: string;
-  showAddButton?: boolean;
+  showAddButton?: boolean; 
 };
 
 export default function EmptyState({ 
