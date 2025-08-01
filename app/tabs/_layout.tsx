@@ -5,7 +5,7 @@ import Colors from "@/constants/colors";
 
 export default function TabLayout() {
   return (
-    <Tabs
+    <Tabs 
       screenOptions={{
         tabBarActiveTintColor: Colors.primary,
         tabBarInactiveTintColor: Colors.textLight,
