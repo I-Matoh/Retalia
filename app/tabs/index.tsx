@@ -7,7 +7,7 @@ import SummaryCard from '@/components/SummaryCard';
 import PeriodSelector from '@/components/PeriodSelector';
 import TransactionItem from '@/components/TransactionItem';
 import EmptyState from '@/components/EmptyState';
-import ProfitChart from '@/components/ProfitChart';
+import ProfitChart from '@/components/ProfitChart'; 
 import Colors from '@/constants/colors';
 
 export default function DashboardScreen() {
