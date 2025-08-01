@@ -8,7 +8,7 @@ import {
   ScrollView,
   KeyboardAvoidingView,
   Platform,
-  Alert,
+  Alert, 
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Camera, Mic, Image as ImageIcon } from 'lucide-react-native';
