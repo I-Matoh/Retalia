@@ -6,7 +6,7 @@ A custom hook for validating transaction data according to predefined rules.
 
 ### Usage
 
-```typescript
+```typescript 
 import { useTransactionValidation } from '@/hooks/useTransactionValidation';
 
 const MyComponent = () => {
