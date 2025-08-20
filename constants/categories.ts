@@ -3,7 +3,7 @@ export type TransactionCategory = {
   name: string;
   icon: string;
   type: 'income' | 'expense';
-};
+}; 
 
 export const categories: TransactionCategory[] = [
   { id: 'sales', name: 'Sales', icon: 'shopping-bag', type: 'income' },
