@@ -6,7 +6,7 @@ interface ValidationErrors {
   description?: string;
 }
 
-export const useTransactionValidation = () => {
+export const useTransactionValidation = () => { 
   const [errors, setErrors] = useState<ValidationErrors>({});
 
   const validateTransaction = useCallback((transaction: Partial<Transaction>): boolean => {
