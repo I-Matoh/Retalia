@@ -11,7 +11,7 @@ export const useTransactionValidation = () => {
 
   const validateTransaction = useCallback((transaction: Partial<Transaction>): boolean => {
     const newErrors: ValidationErrors = {};
-
+ 
     // Validate amount
     if (transaction.amount !== undefined) {
       if (transaction.amount < transactionValidation.amount.min) {
