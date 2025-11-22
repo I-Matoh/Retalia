@@ -11,7 +11,7 @@ export const formatCurrency = (amount: number): string => {
   return new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
-  }).format(amount);
+  }).format(amount);  
 };
 
 export const getDateRangeForPeriod = (period: 'day' | 'week' | 'month' | 'year'): { start: Date, end: Date } => {
