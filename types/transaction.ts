@@ -9,7 +9,7 @@ export interface Transaction {
   type: TransactionType;
   imageUri?: string;
   notes?: string; 
-  createdAt: string; // ISO string
+  createdAt: string; // ISO string   
 }
 
 export interface TransactionValidation {
