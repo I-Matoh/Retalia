@@ -8,7 +8,7 @@ export interface Transaction {
   date: string; // ISO string
   type: TransactionType;
   imageUri?: string;
-  notes?: string;
+  notes?: string; 
   createdAt: string; // ISO string
 }
 
