@@ -11,4 +11,4 @@ export default {
   info: "#17A2B8",
   border: "#DEE2E6",  
   shadow: "rgba(0, 0, 0, 0.1)",
-}; 
+};  
