@@ -6,7 +6,7 @@ export default {
   text: "#212529",
   textLight: "#6C757D",
   success: "#28A745",
-  danger: "#DC3545",
+  danger: "#DC3545",  
   warning: "#FFC107",
   info: "#17A2B8",
   border: "#DEE2E6",  
