@@ -12,7 +12,7 @@ type ProfitChartProps = {
 export default function ProfitChart({ transactions, period }: ProfitChartProps) {
   // For a simple implementation, we'll create a basic bar chart
   // In a real app, you might want to use a charting library
-  
+   
   const getChartData = () => {
     if (transactions.length === 0) return [];
     
