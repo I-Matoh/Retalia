@@ -4,7 +4,7 @@ export const formatDate = (dateString: string): string => {
     year: 'numeric',
     month: 'short',
     day: 'numeric',
-  });
+  }); 
 };
  
 export const formatCurrency = (amount: number): string => {
