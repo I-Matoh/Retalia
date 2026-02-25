@@ -8,7 +8,7 @@ interface TransactionState {
   addTransaction: (transaction: Omit<Transaction, 'id' | 'createdAt'>) => void;
   updateTransaction: (id: string, transaction: Partial<Transaction>) => void;
   deleteTransaction: (id: string) => void;
-  clearAllTransactions: () => void;
+  clearAllTransactions: () => void;   
 }
    
 export const useTransactionStore = create<TransactionState>()(
