@@ -6,7 +6,7 @@ works but still on progress.
 
 1. Install dependencies:
 ```bash
-npm install
+npm install   
 ```
  
 2. Start the development server:
