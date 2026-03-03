@@ -4,7 +4,7 @@ import { Transaction, transactionValidation } from '@/types/transaction';
 interface ValidationErrors {
   amount?: string;
   description?: string;
-}
+}  
 
 export const useTransactionValidation = () => { 
   const [errors, setErrors] = useState<ValidationErrors>({});
