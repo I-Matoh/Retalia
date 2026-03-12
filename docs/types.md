@@ -11,7 +11,7 @@ type TransactionType = 'income' | 'expense';
 A union type representing the possible types of transactions in the application.
 
 ### Transaction
-
+  
 ```typescript
 interface Transaction {
   id: string;
